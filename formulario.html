@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=º, initial-scale=1.0">
+    <title>¡Que comience el juego!</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/Tabla Periódica/calzoncillos.png" type="image/x-icon">
+</head>
+<body class="fondo">
+
+    <h2>Breaking Bad - Que comience el juego!</h2>
+    <form action="mailto:raul.rodriguez@proeducaglobal.com " method="post" enctype="multipart/form-data">
+    <div class="campo-form" id="nombre">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+        <label>Apellidos:</label>
+        <input type="text" name="apellidos" required>
+    </div>
+    
+    <div class="campo-form">
+        <label>Dirección Postal:</label>
+        <input type="text" name="calle" placeholder="Calle">
+        <input type="text" name="numero" placeholder="Nº">
+        <input type="text" name="piso" placeholder="Piso">
+        <input type="text" name="cp" placeholder="Código Postal">
+        <input type="text" name="ciudad" placeholder="Ciudad">
+    </div>
+    <div class="campo-form">
+        <label>DNI:</label>
+        <input type="text" name="dni">
+    </div>
+    <div class="campo-form">
+        <label>Correo Electrónico:</label>
+        <input type="email" name="email" required>
+    </div>
+    <div class="radio">
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" value="hombre">Hombre
+        <input type="radio" name="sexo" value="mujer">Mujer
+    </div>
+    <div class="campo-form">
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" name="fecha-nacimiento">
+    </div>
+    <div class="container">
+        <label>Selecciona un personaje:</label>
+        <select name="personaje">
+            <option value="jessie">Jessie Pinkman</option>
+            <option value="walter">Walter White</option>
+            <option value="saul">Saul Goodman</option>
+            <option value="gustavo">Gustavo Fring</option>
+            <option value="pollos">Pollos Hermanos</option>
+            <option value="otros">Otros personajes</option>
+            </select>
+    </div>
+    <div class="campo-form">
+        <label>Comentarios:</label>
+        <textarea name="comentarios" rows="4"></textarea>
+    </div>
+    <div class="campo-form">
+        <label>Adjuntar Archivo:</label>
+        <input type="file" name="archivo" class="button">
+    </div>
+    <div class="campo-form">
+        <button type="submit" class="button">Enviar</button>
+        <button type="reset" class="button">Borrar</button>
+    </div>
+</form>
+    
+</body>
+</html>

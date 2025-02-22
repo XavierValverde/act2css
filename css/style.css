@@ -1,0 +1,193 @@
+ @font-face {
+   font-family:"Breaking Bad" ;
+   src: url(../tipo/Breaking\ Bad.ttf);
+ }
+ .fondo{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+
+}
+body{
+    background-color:  #6e800a;
+    
+}
+/*! Index */
+#logo{ /* Logo br*/
+   content: url(../img/logo.PNG);
+   /*Se puede hacer con background-image, pero me parece más sencillo de esta forma para evitar párametros de más(width y height) */
+    padding-top: 50px;
+    position: relative;
+    display: block;
+    margin: auto;
+    
+} 
+#Alive{ /* texto*/
+    color: white;
+    font-family: "Breaking Bad";
+    font-size:250%;
+    text-align: center;
+    display: block;
+
+}
+#poster{ /* Imagen principal*/
+    width: 700px;
+    height: 300px;
+    border: 10px, outset;
+    border-color: brown;
+    border-radius: 22px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+/*! Final Index */
+
+/*! Tabla */
+
+.campo-form{
+    /* Formularios*/
+    margin-bottom: 10px
+}
+#cabecera{
+   content: url(../img/cabecera.png);
+    padding: 30px;
+    display: block;
+    margin: auto;
+}
+
+ table{
+    margin: auto;
+    border-collapse: collapse;
+    max-width: 80%; 
+    background-color:  rgb(53, 51, 51);
+ }
+ 
+ .celda-oscura{
+    background-color: rgb(53, 51, 51);
+ }
+ .tabla-inf{
+   margin-top: 20px;
+    width: 30px;
+    height: 30px;
+ } 
+ .tabla-inf td{
+    background-color: rgb(204, 204, 14);
+ } 
+ td{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    border: 5px solid rgb(53, 51, 51);
+    background-color: #a6ce39;  /*mirar color en pdf*/
+    font-family: Helvetica;
+    font-size: 14px; 
+    color: rgb(53, 51, 51); 
+ }
+ td span{
+    font-size: 50px; 
+    font-weight: bold;
+ }
+ .block{
+   display: block;
+   text-align: center;
+   font-size: 14px; 
+   font-weight: normal;
+ }
+ td img{
+    width: 70px;
+    height: 70px;
+ }
+ #Hank{
+    width: 80px;
+    height: 180px;
+ }
+ /* Colores de Celda */
+ .verde1{
+    background-color:#a6ce39
+ }
+ .blanco{
+    background-color: white;
+ }
+ .violeta{
+    background-color:violet;
+ }
+ .verde2{
+    background-color:#7ba014
+ }
+ .verde3{
+    background-color:#3f5714
+ }
+ .verde-suave{
+    background-color:#d4ee8e
+ }
+ .gris{
+    background-color: lightgray
+ }
+ .verdegris{
+    background-color:#7a806b
+ }
+ /*! Fin Tabla */
+
+ /*! Formulario */
+
+h2 {
+   color:#fff;
+   margin-bottom: 10px;
+   margin-top: 0;
+}
+
+.campo-form, .radio, .container {
+    margin: 15px 0;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #388e3c;
+    border-radius: 10px;
+    background: #438a46;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #c8e6c9;
+}
+
+.radio input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.button {
+    background: #438a46;;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background: #7ba014;
+}
+/*! Fin Formulario */
